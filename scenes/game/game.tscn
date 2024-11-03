@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://bvnqlp2ne0khm"]
+[gd_scene load_steps=9 format=3 uid="uid://bvnqlp2ne0khm"]
 
 [ext_resource type="Script" path="res://scenes/game/game.gd" id="1_mvuql"]
 [ext_resource type="PackedScene" uid="uid://bgswpl28qgmap" path="res://scenes/managers/manager_money.tscn" id="1_x57ct"]
@@ -9,6 +9,9 @@
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4o6bd"]
 bg_color = Color(0, 0, 0, 0.447059)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jujeq"]
+bg_color = Color(0.216737, 0.399395, 0.754797, 1)
 
 [node name="Game" type="Node"]
 script = ExtResource("1_mvuql")
@@ -54,7 +57,242 @@ text = "Age : 13"
 horizontal_alignment = 1
 vertical_alignment = 1
 
+<<<<<<< Updated upstream
 [node name="ExpenseTimer" type="Timer" parent="."]
+=======
+[node name="popup14" type="PanelContainer" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -313.0
+offset_top = -258.0
+offset_right = 311.0
+offset_bottom = 178.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_jujeq")
+
+[node name="ItemList14" type="ItemList" parent="popup14"]
+visible = false
+layout_mode = 2
+text_overrun_behavior = 0
+item_count = 2
+max_columns = 2
+same_column_width = true
+item_0/text = "VBUCKS"
+item_0/selectable = false
+item_1/text = "piggy bankin"
+item_1/selectable = false
+
+[node name="popup16" type="PanelContainer" parent="."]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -313.0
+offset_top = -258.0
+offset_right = 311.0
+offset_bottom = 178.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_jujeq")
+
+[node name="ItemList16" type="ItemList" parent="popup16"]
+visible = false
+layout_mode = 2
+text_overrun_behavior = 0
+item_count = 2
+max_columns = 2
+same_column_width = true
+item_0/text = "eat out w friends"
+item_0/selectable = false
+item_1/text = "donuts in the parking lot (inedible)"
+item_1/selectable = false
+
+[node name="popup18" type="PanelContainer" parent="."]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -313.0
+offset_top = -258.0
+offset_right = 311.0
+offset_bottom = 178.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_jujeq")
+
+[node name="ItemList18" type="ItemList" parent="popup18"]
+visible = false
+layout_mode = 2
+text_overrun_behavior = 0
+item_count = 2
+max_columns = 2
+same_column_width = true
+item_0/text = "eat out w friends"
+item_0/selectable = false
+item_1/text = "donuts in the parking lot (inedible)"
+item_1/selectable = false
+
+[node name="popup22" type="PanelContainer" parent="."]
+visible = false
+offset_left = 263.0
+offset_top = 66.0
+offset_right = 887.0
+offset_bottom = 502.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_jujeq")
+
+[node name="ItemList22" type="ItemList" parent="popup22"]
+visible = false
+layout_mode = 2
+text_overrun_behavior = 0
+item_count = 2
+max_columns = 2
+same_column_width = true
+item_0/text = "CANCUN ON ME"
+item_0/selectable = false
+item_1/text = "car"
+item_1/selectable = false
+
+[node name="popup26" type="PanelContainer" parent="."]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -313.0
+offset_top = -258.0
+offset_right = 311.0
+offset_bottom = 178.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_jujeq")
+
+[node name="ItemList26" type="ItemList" parent="popup26"]
+visible = false
+layout_mode = 2
+text_overrun_behavior = 0
+item_count = 2
+max_columns = 2
+same_column_width = true
+item_0/text = "wedding + wedding ring"
+item_0/selectable = false
+item_1/text = "ring pop for your lonely self"
+item_1/selectable = false
+
+[node name="popup32" type="PanelContainer" parent="."]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -313.0
+offset_top = -258.0
+offset_right = 311.0
+offset_bottom = 178.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_jujeq")
+
+[node name="ItemList32" type="ItemList" parent="popup32"]
+visible = false
+layout_mode = 2
+text_overrun_behavior = 0
+item_count = 2
+max_columns = 2
+same_column_width = true
+item_0/text = "hella plan b"
+item_0/selectable = false
+item_1/text = "unlucky"
+item_1/selectable = false
+
+[node name="popup36" type="PanelContainer" parent="."]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -313.0
+offset_top = -258.0
+offset_right = 311.0
+offset_bottom = 178.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_jujeq")
+
+[node name="ItemList36" type="ItemList" parent="popup36"]
+visible = false
+layout_mode = 2
+text_overrun_behavior = 0
+item_count = 2
+max_columns = 2
+same_column_width = true
+item_0/text = "house"
+item_0/selectable = false
+item_1/text = "apartment"
+item_1/selectable = false
+
+[node name="popup40" type="PanelContainer" parent="."]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -313.0
+offset_top = -258.0
+offset_right = 311.0
+offset_bottom = 178.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_jujeq")
+
+[node name="ItemList40" type="ItemList" parent="popup40"]
+visible = false
+layout_mode = 2
+text_overrun_behavior = 0
+item_count = 2
+max_columns = 2
+same_column_width = true
+item_0/text = "ALCOHOL"
+item_0/selectable = false
+item_1/text = "pilates on a tuesday morning"
+item_1/selectable = false
+
+[node name="popup50" type="PanelContainer" parent="."]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_jujeq")
+
+[node name="ItemList50" type="ItemList" parent="popup50"]
+visible = false
+layout_mode = 2
+text_overrun_behavior = 0
+item_count = 2
+max_columns = 2
+same_column_width = true
+item_0/text = "perro or gato"
+item_0/selectable = false
+item_1/text = "pickleball obsession"
+item_1/selectable = false
+>>>>>>> Stashed changes
 
 [connection signal="timeout" from="EventTimer" to="." method="_on_timer_timeout"]
 [connection signal="timeout" from="ExpenseTimer" to="." method="_on_expense_timer_timeout"]
