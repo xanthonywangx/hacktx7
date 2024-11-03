@@ -1,0 +1,104 @@
+cookie clicker game for stocks
+
+Your mom gives you $1000 when you start your firset job at 16. 
+	You get money at your job by clicking as fast as you can 
+As you play, you get options
+	1. go to a party - 100
+	2. spend time taking a cert to get a new job +25 per click
+
+once you get 18
+	You can buy a car to get a new job that makes more money
+	or
+	you can go to college and increase expenses with small income, but eventually get to large increase in income
+		less time to click, and less money per click
+	
+once you get to 21: you can now buy alcohol and gamble
+	Las vegas trip!!!!!!!!!!!!!!!
+		You can gamble hella money and drink hella
+		or
+		Finish degree and get higher paying job
+
+
+You get to 30: You realize your age starts with a 3
+ 
+
+
+Loss condition: 
+	go below 0
+	stupid enough decision that you die
+
+	
+	if time allows: 
+	we add loan concept	
+	Happiness counter: if it goes too low, depression and die
+	Loss of motivation so you get less and less productive at your job. 
+
+Logistics that we need to figure out:
+UI for bitlife
+Time Variable and Money Variable
+	Time Variable
+		How long users have to get money
+		Every x seconds, new option popup
+		no global time pause: it will always move on just like life
+	
+	Money Variable
+		Click Counter
+		Amount per click
+			time for clicking are based on jobs and age
+
+		
+Every time we get an option that can include budgeting: you will get a small script on hwo you can do this in real life 
+	ie if you choose to save 20 bucks a week instead of eating out, you will get budgeting suggestions (FROM GPT) that you can use IRL
+
+UI: aracade outline
+
+--- expenses
+- college debt (as a choice)
+- kids / marriage (choice) ((26))
+- car
+- housing
+- insurance
+- inevitable disaster(s)
+
+[ start with 50 cents ]
+
+6 cps
+
+++++ slow ++++ (6SEC/YR)
+13 Years: Starting age,[ multiplier 2x ] (chores around the house)
+	- vbucks!! { -$5 }
+	- piggy bankin	{ -$2 }
+
+16 years: (getting a job) [ change multiplier click to $13 ]
+	- eat out w friends { -$200 }
+	- donuts in a parking lot (not edible)
+		- SURPRISE CRASH { -$400 }
+
+{ surprise 100$ gift from mommy <3 }
+18 years: free trial over
+	- continue with job and ez promotion [ mult. 18x ]
+	- college [ mult. 8x ]
+
+22 years: college graduation
+	- CANCUN ON ME { -1000 } BUT [ mult 40x ] (-700 a month)
+	- car { -5000 } (-500 a month)
+
+26 years: marriage choice
+	- wedding ring + wedding { -20,000 } [ mult. 80x ] (expenses double)
+	- ring pop for your lonely self {-$1}
+(4Sec/yr)
+32 years: kids
+	- hella plan b 
+	- unlucky (-1,000/mo)
+
+36 housing
+	- house ( cost 400k total ) { -80,000 down payment } { -1k loan }
+	- apartment {-1.2k/mo}
+
+40 years: MID LIFE CRISIS
+	- ALCHJAOL (-500/mo) [ mult. 65x]
+	- pilates (-200/mo) 
+
+50 years:
+	- perro / gato (-1,000/mo)
+	- pickleball obsession { -100 }
