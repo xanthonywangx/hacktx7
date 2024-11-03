@@ -1,15 +1,27 @@
 class_name ClickerPrototype
-extends Control
+extends Node
 
+@onready var game : Game = null
+
+func _ready() -> void:
+	game = Game.ref
 
 func _on_texture_button_1_pressed() -> void:
-	ManagerMoney.ref.click()  # Example command
-	print("Button 1 pressed! Money:", Game.ref.data.money)
+	if not game.showOptions:
+		ManagerMoney.ref.click()  # Increase money
+		print("Money Button pressed! Money:", game.data.money)
 
 func _on_texture_button_2_pressed() -> void:
-	ManagerMoney.ref.click()  # Example command
-	print("Button 2 pressed! Money:", Game.ref.data.money)
+	if game.showOptions:
+		game.handle_choice("Option 1")
+		Game.ref.data.yesno = 1
+	else:
+		print("Option 1 pressed, but no options are shown")
 	
+
 func _on_texture_button_3_pressed() -> void:
-	ManagerMoney.ref.click()  # Example command
-	print("Button 3 pressed! Money:", Game.ref.data.money)
+	if game.showOptions:
+		game.handle_choice("Option 2")
+		Game.ref.data.yesno = -1
+	else:
+		print("Option 2 pressed, but no options are shown")

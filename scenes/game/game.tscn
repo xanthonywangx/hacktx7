@@ -54,4 +54,36 @@ text = "Age : 13"
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Option1Button" type="Button" parent="."]
+visible = false
+offset_left = 277.0
+offset_top = 581.0
+offset_right = 348.0
+offset_bottom = 612.0
+text = "Option1"
+
+[node name="Option2Button" type="Button" parent="."]
+visible = false
+offset_left = 805.0
+offset_top = 578.0
+offset_right = 876.0
+offset_bottom = 609.0
+text = "Option2"
+
+[node name="MoneyButton" type="Button" parent="."]
+visible = false
+offset_left = 511.0
+offset_top = 578.0
+offset_right = 642.0
+offset_bottom = 609.0
+text = "Increase Money"
+
+[node name="Popup" type="Popup" parent="."]
+initial_position = 1
+size = Vector2i(200, 200)
+
+[node name="PopupLabel" type="Label" parent="Popup"]
+offset_right = 40.0
+offset_bottom = 23.0
+
 [connection signal="timeout" from="EventTimer" to="." method="_on_timer_timeout"]
