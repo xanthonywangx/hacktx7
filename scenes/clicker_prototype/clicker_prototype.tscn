@@ -1,0 +1,50 @@
+[gd_scene load_steps=6 format=3 uid="uid://bh1yc8tuai63v"]
+
+[ext_resource type="Script" path="res://scenes/clicker_prototype/clicker_prototype.gd" id="1_nwb6d"]
+[ext_resource type="Texture2D" uid="uid://dtw0v3bb26ce5" path="res://images/button1.tres" id="2_guju1"]
+[ext_resource type="Texture2D" uid="uid://hgdka1qxi4w8" path="res://images/button2.tres" id="3_a3x5q"]
+[ext_resource type="Texture2D" uid="uid://b1po3fopn7uuv" path="res://images/button3.tres" id="4_7oox4"]
+[ext_resource type="Texture2D" uid="uid://njexpe0edf7a" path="res://images/button4.tres" id="5_nmntj"]
+
+[node name="ClickerPrototype" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_nwb6d")
+
+[node name="TextureButton1" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 526.0
+offset_top = 550.0
+offset_right = 626.0
+offset_bottom = 650.0
+texture_normal = ExtResource("2_guju1")
+texture_pressed = ExtResource("3_a3x5q")
+stretch_mode = 0
+
+[node name="TextureButton2" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 263.0
+offset_top = 550.0
+offset_right = 363.0
+offset_bottom = 650.0
+texture_normal = ExtResource("4_7oox4")
+texture_pressed = ExtResource("5_nmntj")
+stretch_mode = 0
+
+[node name="TextureButton3" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 789.0
+offset_top = 550.0
+offset_right = 889.0
+offset_bottom = 650.0
+texture_normal = ExtResource("4_7oox4")
+texture_pressed = ExtResource("5_nmntj")
+stretch_mode = 0
+
+[connection signal="pressed" from="TextureButton1" to="." method="_on_texture_button_1_pressed"]
+[connection signal="pressed" from="TextureButton2" to="." method="_on_texture_button_2_pressed"]
+[connection signal="pressed" from="TextureButton3" to="." method="_on_texture_button_3_pressed"]

@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=3 uid="uid://bgswpl28qgmap"]
+
+[ext_resource type="Script" path="res://scenes/managers/manager_money.gd" id="1_aw7hy"]
+[ext_resource type="FontFile" uid="uid://cdmx83y4fnqmh" path="res://PressStart2P-Regular.ttf" id="2_2662s"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tjexe"]
+bg_color = Color(0, 0, 0, 0.34902)
+
+[node name="ManagerMoney" type="Node"]
+script = ExtResource("1_aw7hy")
+
+[node name="Label" type="Label" parent="."]
+custom_minimum_size = Vector2(320, 150)
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -11.5
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("2_2662s")
+theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxFlat_tjexe")
+text = "$0"
+horizontal_alignment = 1
+vertical_alignment = 1

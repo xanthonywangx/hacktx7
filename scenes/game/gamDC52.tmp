@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://bvnqlp2ne0khm"]
+
+[ext_resource type="Script" path="res://scenes/game/game.gd" id="1_mvuql"]
+[ext_resource type="PackedScene" uid="uid://bgswpl28qgmap" path="res://scenes/managers/manager_money.tscn" id="1_x57ct"]
+[ext_resource type="PackedScene" uid="uid://bh1yc8tuai63v" path="res://scenes/clicker_prototype/clicker_prototype.tscn" id="3_pxeu6"]
+
+[node name="Game" type="Node"]
+script = ExtResource("1_mvuql")
+
+[node name="Managers" type="Node" parent="."]
+
+[node name="ManagerMoney" parent="Managers" instance=ExtResource("1_x57ct")]
+
+[node name="ClickerPrototype" parent="." instance=ExtResource("3_pxeu6")]
